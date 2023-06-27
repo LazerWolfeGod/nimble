@@ -24,3 +24,18 @@ Harry is a powerhouse, every attack dealing huge amounts of damage, however he l
 
 #### Alex
 Alex is a powerful fighter, he is quite agile and his attacks are universally good. His main weapon is his stick, giving all of his attacks good range. His dash is one of his most powerful attacks, as he spins around with his stick giving a massive AOE and lots of damage. His Melee attack is a whip with his stick, giving a huge range in front of him, and his ranged attack is simply throwing his stick in an arc.
+
+### Stats
+
+| Stat           | Ken        | Harry      | Alex         |
+| :------------- | :--------: | :--------: | :----------: |
+| Health         | 100        | 180        | 125          |
+| Speed          | 13.5       | 7.2        | 11.7         |
+| Dash Speed     | 30         | 20         | 20           |
+| Dash Length    | 15         | 20         | 30           |
+| Dash Damage    | 8          | 12         | 25           |
+| Dash Cooldown  | 30         | 30         | 30           |
+| Melee Damage   | 35         | 78         | 65           |
+| Melee Cooldown | 35         | 50         | 35           |
+| Ranged Damage  | 25         | 55         | 55           |
+| Ranged Cooldown| 25         | 50         | 35           |
