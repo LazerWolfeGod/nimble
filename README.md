@@ -1,7 +1,8 @@
 # Nimble
 A side on pvp game in the style of Smash bros/Brawlhalla
 # How to play
-In the game creation menu you can have a max of 4 players each of which can be one of 3 characters. The feature for ai players does not currently work, the ai used is a randomly generated neural network which will make random actions.
+The goal of the game is be the last player left standing, by either knocking other players off the map or dropping their health to zero.
+In the game creation menu you can have a max of 4 players each of which can be one of 3 characters. The feature for ai players does not currently work, the ai used is a randomly generated neural network which will make random actions. 
 ## Controls
 Each character has 7 controls: left, right, jump, down, dash, melee attack and ranged attack
 
