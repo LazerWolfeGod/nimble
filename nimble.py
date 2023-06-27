@@ -409,6 +409,7 @@ class PLAYER:
             
         
     def animate(self,damages,scale,particles,parint,shake):
+        self.drawlower = 0
         if self.animationdata[1] == 0:
             self.animationdata[2]-=1
             if self.animationdata[2] <= 0:
@@ -429,7 +430,6 @@ class PLAYER:
                 
         elif self.animationdata[1] == 2:
             if self.character == 'alex': self.drawlower = 15
-            else: self.drawlower = 0
             self.animationdata[2]-=1
             if self.animationdata[2] <= 0:
                 self.animationdata[0] = (self.animationdata[0]+1)%self.animationlengths[self.animationdata[1]]
@@ -1727,9 +1727,8 @@ class MAIN:
                 pygame.mixer.music.set_volume(self.musicvolume)
         self.controls = [[pygame.K_w,pygame.K_s,pygame.K_a,pygame.K_d,pygame.K_SPACE,pygame.K_e,pygame.K_q],
                          [pygame.K_UP,pygame.K_DOWN,pygame.K_LEFT,pygame.K_RIGHT,pygame.K_RETURN,pygame.K_n,pygame.K_m],
-                         [pygame.K_t,pygame.K_g,pygame.K_f,pygame.K_h,pygame.K_8,pygame.K_9,pygame.K_0],
-                         [pygame.K_i,pygame.K_k,pygame.K_j,pygame.K_l,pygame.K_b,pygame.K_o,pygame.K_p]]
-##        self.controls = [[pygame.K_w,pygame.K_s,pygame.K_a,pygame.K_d,pygame.K_SPACE,pygame.K_e,pygame.K_q],
+                         [pygame.K_t,pygame.K_g,pygame.K_f,pygame.K_h,pygame.K_8,pygame.K_y,pygame.K_r],
+                         [pygame.K_i,pygame.K_k,pygame.K_j,pygame.K_l,pygame.K_0,pygame.K_o,pygame.K_u]]##        self.controls = [[pygame.K_w,pygame.K_s,pygame.K_a,pygame.K_d,pygame.K_SPACE,pygame.K_e,pygame.K_q],
 ##                         [pygame.K_UP,pygame.K_DOWN,pygame.K_LEFT,pygame.K_RIGHT,pygame.K_RETURN,pygame.K_n,pygame.K_m],
 ##                         [pygame.K_UP,pygame.K_DOWN,pygame.K_LEFT,pygame.K_RIGHT,pygame.K_RETURN,pygame.K_n,pygame.K_m],
 ##                         [pygame.K_UP,pygame.K_DOWN,pygame.K_LEFT,pygame.K_RIGHT,pygame.K_RETURN,pygame.K_n,pygame.K_m]]
