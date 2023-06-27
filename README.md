@@ -7,7 +7,7 @@ In the game creation menu you can have a max of 4 players each of which can be o
 Each character has 7 controls: left, right, jump, down, dash, melee attack and ranged attack
 
 | Control | Player One | Player Two | Player Three | Player Four |
-| :------ | :--------: | :--------: | :----------: | ----------: |
+| :------ | :--------: | :--------: | :----------: | :---------: |
 | Left    | A          | Left arrow | F            | J           |
 | Right   | D          | Right arrow| H            | L           |
 | Jump    | W          | Up arrow   | T            | I           |
