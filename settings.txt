@@ -1,0 +1,10 @@
+screenscale: 1.0 
+particles: 1.8 
+camerashake: 1.0 
+camerafollow: 1.0 
+particlephysics: 1 
+musicvolume: 0.0 
+player1controls: w s a d SPACE e q 
+player2controls: UP DOWN LEFT RIGHT RETURN n m 
+player3controls: t g f h 8 9 0 
+player4controls: i k j l b o p
